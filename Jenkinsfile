@@ -1,4 +1,5 @@
 node {
-        stage("Récupération des sources") {
-                checkout scm
-        }
+	stage("Récupération des sources") {
+		checkout scm
+	}
+}
